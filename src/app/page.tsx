@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <>
-      <p>Glory be to God</p>
+      <p className="text-green-500">Glory be to God</p>
     </>
   );
 }
