@@ -15,9 +15,11 @@ const Profile = () => {
           <div className="flex items-center space-x-4">
             <div className="w-24 h-24 rounded-full bg-gray-300">
               <Image
-                src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                src="/images/profile.avif"
                 alt="Profile"
-                className="w-full h-full rounded-full object-cover"
+                              className="w-full h-full rounded-full object-cover"
+                              width={100}
+                              height={100}
               />
             </div>
           </div>
